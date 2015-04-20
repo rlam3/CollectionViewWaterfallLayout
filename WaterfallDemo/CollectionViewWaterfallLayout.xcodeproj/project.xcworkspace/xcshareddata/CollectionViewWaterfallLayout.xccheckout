@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>731F7CF1-E2D6-45AC-AFC0-46576C7C79CA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CollectionViewWaterfallLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B10C95684B05A6DD02041F9388BF8B59EE80C79F</key>
+		<string>https://github.com/rlam3/CollectionViewWaterfallLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaterfallDemo/CollectionViewWaterfallLayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B10C95684B05A6DD02041F9388BF8B59EE80C79F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rlam3/CollectionViewWaterfallLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B10C95684B05A6DD02041F9388BF8B59EE80C79F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B10C95684B05A6DD02041F9388BF8B59EE80C79F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CollectionViewWaterfallLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
