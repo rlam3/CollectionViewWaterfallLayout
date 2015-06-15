@@ -39,6 +39,11 @@ How to Use
 -----------
 Check out the demo project for an example using storyboards to set up the views, and that programmatically creates and customizes the waterfall layout.
 
+#### Adding import for delegate to work  
+```
+import CollectionViewWaterfallLayout
+```
+
 #### Customizable Properties
 Below are the public properties and their default values that you can change to customize the layout
 ``` swift
