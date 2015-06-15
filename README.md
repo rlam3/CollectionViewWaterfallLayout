@@ -32,7 +32,7 @@ Installation
 -----------
 CollectionViewWaterfallLayout is available through CocoaPods. To install it, simply add the following line to your Podfile:
 ```
-pod "CollectionViewWaterfallLayout"
+pod "CollectionViewWaterfallLayout", :git => 'https://github.com/ecerney/CollectionViewWaterfallLayout.git', :branch => 'master'
 ```
 
 How to Use
