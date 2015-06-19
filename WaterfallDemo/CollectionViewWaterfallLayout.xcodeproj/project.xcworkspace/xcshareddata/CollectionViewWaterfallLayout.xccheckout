@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>731F7CF1-E2D6-45AC-AFC0-46576C7C79CA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CollectionViewWaterfallLayout</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B10C95684B05A6DD02041F9388BF8B59EE80C79F</key>
 		<string>https://github.com/rlam3/CollectionViewWaterfallLayout.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WaterfallDemo/CollectionViewWaterfallLayout.xcodeproj</string>
+	<string>WaterfallDemo/CollectionViewWaterfallLayout.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B10C95684B05A6DD02041F9388BF8B59EE80C79F</key>
