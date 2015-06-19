@@ -17,7 +17,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, CollectionVi
         
         for _ in 0...100 {
             let random = Int(arc4random_uniform((UInt32(100))))
-            
+            //let random = 40
             _cellSizes.append(CGSize(width: 140, height: 50 + random))
         }
         
@@ -27,14 +27,18 @@ class ViewController: UIViewController, UICollectionViewDataSource, CollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        gridLayout()
         
+    }
+    
+    func gridLayout(){
         let layout = CollectionViewWaterfallLayout()
-        layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        layout.sectionInset = UIEdgeInsets(top: 10, left: 5, bottom: 10, right: 5)
         layout.headerInset = UIEdgeInsetsMake(20, 0, 0, 0)
         layout.headerHeight = 50
         layout.footerHeight = 20
-        layout.minimumColumnSpacing = 10
-        layout.minimumInteritemSpacing = 10
+        layout.minimumColumnSpacing = 1
+        layout.minimumInteritemSpacing = 1
         
         collectionView.collectionViewLayout = layout
         collectionView.registerClass(UICollectionReusableView.self, forSupplementaryViewOfKind: CollectionViewWaterfallElementKindSectionHeader, withReuseIdentifier: "Header")
@@ -60,9 +64,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, CollectionVi
         if let label = cell.contentView.viewWithTag(1) as? UILabel {
             label.text = String(indexPath.row)
         }
-        
         return cell
     }
+    
     
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
         var reusableView: UICollectionReusableView? = nil
